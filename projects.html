@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- навигация -->
+    <nav class="navbar sticky-top py-1 navbar-expand-lg">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2 d-none d-md-inline-block" href="./portfolio.html">Главная</a>
+            <a class="py-2 d-none d-md-inline-block" href="./projects.html">Портфолио</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Контакты</a>
+        </div>
+    </nav>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-lg-6 col-md ">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Проект Калькулятор</h2>
+            </div>
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    <ion-icon name="arrow-down"></ion-icon>
+                    Посмотреть
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <link rel="stylesheet" href="calcStyle.css">
+                    <div id='show'></div>
+
+                    <section class="grid-container">
+                        <div id='mult' class='knopki'> *</div>
+                        <div id='div' class='knopki'> /</div>
+                        <div id='add' class='knopki'>+</div>
+                        <div id='subs' class='knopki'>-</div>
+                        <div id='number9' class='knopki'> 9</div>
+                        <div id='number8' class='knopki'>8</div>
+                        <div id='number7' class='knopki'>7</div>
+                        <div id='leftBracket' class='knopki'> (</div>
+                        <div id='number6' class='knopki'>6</div>
+                        <div id='number5' class='knopki'>5</div>
+                        <div id='number4' class='knopki'>4</div>
+                        <div id='rightBracket' class='knopki'>)</div>
+                        <div id='number3' class='knopki'>3</div>
+                        <div id='number2' class='knopki'>2</div>
+                        <div id='number1' class='knopki'>1</div>
+                        <div id='number0' class='knopki'>0</div>
+                        <div id='comma' class='knopki'>.</div>
+                        <div id='remove' class='knopki'>C</div>
+                        <div id='equality' class='knopki'>=</div>
+                    </section>
+
+                    <script src="main1.js"></script>
+                </div>
+            </div>
+        </div>
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-lg-6 col-md" style="max-height: 500%">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Контакты</h2>
+                <ion-icon name="call"></ion-icon> +7 (925) 349-90-87<br>
+                <ion-icon name="mail"></ion-icon> dmitrykim-l@mail.ru <br>
+                <ion-icon name="logo-github"></ion-icon>
+                <a href="http://github.com/Dmitrykim94">Github аккаунт</a>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+
+
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+                    viewBox="0 0 24 24" focusable="false">
+                    <title>Product</title>
+                    <circle cx="12" cy="12" r="10" />
+                    <path
+                        d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+                </svg>
+                <small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
+            </div>
+            <div class="col-lg-6 col-md">
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Cool stuff</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Resource</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+</body>
+
+</html>

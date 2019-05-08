@@ -1,0 +1,92 @@
+section{
+    display: grid;
+    grid-template-areas: 
+    'add1 subs mult div'
+    'number7 number8 number9 leftBracket'
+    'number4 number5 number6 rightBracket'
+    'number1 number2 number3 comma'
+    'number0 number0 remove1 equality';
+    font-size: 40px;
+    grid-gap: 2px;
+    background-color: #2196F3;
+    padding: 1px;
+    /* border-radius: 10px; */
+    
+}
+
+
+section.grid-container {
+    width:420px;
+    height:410px;
+}
+
+
+#mult {grid-area: mult;}
+#div {grid-area: div;}
+#add {grid-area: add1;}
+#subs {grid-area: subs;}
+#number0 {grid-area: number0;}
+#number1 {grid-area: number1;}
+#number2 {grid-area: number2;}
+#number3 {grid-area: number3;}
+#number4 {grid-area: number4;}
+#number5 {grid-area: number5;}
+#number6 {grid-area: number6;}
+#number7 {grid-area: number7;}
+#number8 {grid-area: number8;}
+#number9 {grid-area: number9;}
+#leftBracket {grid-area: leftBracket;}
+#rightBracket {grid-area: rightBracket;}
+#comma {grid-area: comma;}
+#equality {grid-area: equality;}
+#remove {grid-area: remove1;}
+
+.knopki{
+    width:100px;
+    height:60px;
+    cursor: pointer;
+    user-select: none;
+    /* border-radius: 10px; */
+
+}
+.knopki:hover{
+    width:100px;
+    transition: 0.5s;
+    height:60px;
+    /* border-radius: 10px; */
+    background-color: #2196F3;
+    /* content: url('frogkuku.webp'); */
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+div{
+    border: 1px solid black;
+    
+}
+
+#number0{
+    width:205px;
+}
+
+#show{
+    height: 180px;
+    width: 418px;
+    background-color: rgb(5, 3, 3);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    color:white;
+    font-size: 50px;
+    border: 2px solid #2196F3;
+    word-wrap: break-word;
+}
+#equality{
+    background-color: rgb(233, 156, 136);
+}
